@@ -15,7 +15,8 @@ module.exports = [
         name: 'useAxios',
         message: 'Use Axios',
         description: 'Use Axios to connect to services',
-        type: 'confirm'
+        type: 'confirm',
+        default: true
     },
     {
         name: 'netsuiteAccountNumber',

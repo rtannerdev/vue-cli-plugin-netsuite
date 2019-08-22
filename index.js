@@ -16,4 +16,14 @@ module.exports= (api,projectOptions) => {
         config.plugins.push(new HtmlWebpackInlineSourcePlugin());
         config.optimization.splitChunks=false;
     })
+
+    // api.chainWebpack(config => {
+    //     config
+    //         .plugin('HtmlWebpackPlugin')
+    //         .use(HtmlWebpackPlugin,{
+    //             template: 'public/index.html',  //template file to embed the source
+    //             inlineSource: '.(js|css)$' // embed all javascript and css inline
+    //         })
+    // })
+
 }

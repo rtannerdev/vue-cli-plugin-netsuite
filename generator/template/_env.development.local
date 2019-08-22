@@ -1,0 +1,4 @@
+VUE_APP_NSACCOUNT="<Netsuite Account Number>"
+VUE_APP_NSEMAIL="<Netsuite Email>"
+VUE_APP_NSPASSWORD="<Netsuite Password>"
+VUE_APP_NSROLE="<Netsuite Role To Use>"
